@@ -1,0 +1,66 @@
+header {
+    background-color: rgb(238, 165, 169);
+    margin: 30px;
+    padding: 30px;
+    color: rgb(255, 242, 218);
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 6px rgb(172, 3, 67);
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 242, 218);
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.card.done {
+    cursor: default;
+}
+.card.done:hover {
+    cursor: default;
+    box-shadow: none;
+}
+.card:hover {
+    box-shadow: inset 0px 0px 0px 2px rgb(235, 199, 122);
+    box-sizing: border-box;
+}
+
+.sakura1 {
+    background-image: url("../img/1.png");
+}
+.sakura2 {
+    background-image: url("../img/2.png");
+}
+.sakura3 {
+    background-image: url("../img/3.png");
+}
+.sakura4 {
+    background-image: url("../img/4.png");
+}
+.sakura5 {
+    background-image: url("../img/5.png");
+}
+.sakura6 {
+    background-image: url("../img/6.png");
+}
+.sakura7 {
+    background-image: url("../img/7.png");
+}
+.sakura8 {
+    background-image: url("../img/8.png");
+}
+
+.image-hidden {
+    background-image: url("../img/leaf.png");
+}
