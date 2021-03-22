@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Database Applicatie - Frontend #10: Memory</title>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.min.js"></script>
+    <script language="javascript" src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/addons/p5.sound.min.js"></script>
 
 </head>
 <body>
     <header>Database Applicatie - Frontend #10: Memory</header>
     <main>
+
+    <p id="timer"> _________ </p>
+
     <div class="row">
         <div  data-image="sakura1"
         class="card sakura1 image-hidden" 
