@@ -103,10 +103,10 @@ function onCardClicked(e) {
             setTimeout(() => {
             clickedCard.className = 
                 clickedCard.className.replace('done', '').trim() + 
-                'image-hidden';
+                ' image-hidden';
             target.className =
                 target.className.replace('done', '').trim() +
-                'image-hidden';
+                ' image-hidden';
             clickedCard = null;
             preventClick = false;
             }, 500);
